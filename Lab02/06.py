@@ -1,0 +1,5 @@
+n = int(input())
+s1 = input()
+s2 = input()
+answer = (s1+s2)*(n//2)+s1*(n%2)
+print(answer)
